@@ -2,10 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ryankembrey.github.io/categories/</loc>
+    <loc>http://ryankembrey.github.io/tags/cad/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/tags/challenge/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/tags/project/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/projects/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/tags/robot/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://ryankembrey.github.io/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://ryankembrey.github.io/tags/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/tags/warman/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/projects/warman/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ryankembrey.github.io/categories/</loc>
   </url>
 </urlset>
