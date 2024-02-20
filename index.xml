@@ -25,5 +25,14 @@
       <description>How I create my LaTeX projects with minimal effort</description>
     </item>
     
+    <item>
+      <title>Use Any Editor With EdStem</title>
+      <link>http://ryankembrey.github.io/blog/ed_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryankembrey.github.io/blog/ed_setup/</guid>
+      <description>A short tutorial on setting up EdStem to work with any editor</description>
+    </item>
+    
   </channel>
 </rss>
