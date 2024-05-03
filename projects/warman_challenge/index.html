@@ -100,8 +100,8 @@
   "keywords": [
     "Warman", "Project", "Robot", "Challenge", "CAD"
   ],
-  "articleBody": "Task The goal of this Warman challenge is to create a small-scale prototype of a transport system that can collect and deliver six spherical vessels to their respective silos. This must be done within a 120-second time limit, otherwise, the robot must stop wherever it is currently at in the process. The official rules document.\nImage source: Warman Competition Rules Modules Scissor Lift The design of the scissor lift was one of the main contribitions I made to the robot. The purpose of the scissor lift was to raise the tennis balls to the correct height for depositation.\nScooping Arm Deposit Mechanism The goal of this module was to store and deposit the tennis and squash balls into the silos. It should fit onto the top of the scissor lift, and be as light as possible.\nCourse Navigation Navigating the Track: Exploring Options\nOur group faced the challenge of ensuring the robot could reliably navigate the track. We considered two primary options:\nHardcode the Movements:\nGuessing the correct motor movements for a successful run. Adjusting values through trial and error. Use Sensors:\nEmploying sensors such as ultrasonic, infrared, and lidar. Exploring Pixy Camera Capabilities\nI had recently become aware of a product called the ‘Pixy Camera’ and was interested to try out its capabilities as a means of track navigation. To be a viable solution, the pixy camera had to be able to detect the following reliably:\nTennis balls Squash balls Storage silos To test the pixy camera, I prototyped a small robot that follows a tennis ball based on its colour hue. Below is a short video demonstration. Click to view code on GitHub\nThe camera could successfully detect a tennis ball, but after attempting the same test on a squash ball at university, I realised the camera only detects objects that have a colour hue. This was a major problem since the squash balls are black, and the silos are white. Unfortunately this ruled out the use of the pixy camera in our robot.\nOutcome On the test day, our robot had some current drawage issues with the wheel-driving motors. This led to our robot not being able to overcome its own inertia. The challenge allowed for one “correction tap” of the robot during the test. Our group used this to help it overcome its inertia. Points were given for successfully holding tennis/squash balls, so our group changed its goal to sucessfully pick up three tennis balls by lining them up in a row.\n",
-  "wordCount" : "416",
+  "articleBody": " Previous Next / [pdf] View the PDF file here. Task The goal of this Warman challenge is to create a small-scale prototype of a transport system that can collect and deliver six spherical vessels to their respective silos. This must be done within a 120-second time limit, otherwise, the robot must stop wherever it is currently at in the process. The official rules document.\nImage source: Warman Competition Rules Modules Scissor Lift The design of the scissor lift was one of the main contributions I made to the robot. The purpose of the scissor lift was to raise the tennis balls to the correct height for depositing.\nScissor lift CAD model Scooping Arm I engineered the scooping arm to gather objects from the base of the track, lifting and depositing them onto the scissor lift. This system leverages the elevation of the objects above the platform, to facilitate the scooping action. The top of the bucket as a slight angle on it, which allows the balls to roll off onto the scissor lift when the arm is lifted vertically.\nScooping arm CAD model The design of this system came with the challenge of ensuring the motor had enough torque to lift the tennis balls up. The torque required to lift the tennis ball up was calculated to ensure the right motor was used. Since the maximum torque required was 26Nm, our group used a stepper motor with an advertised torque of 56Nm.\nA graph of the torque required from the stepper motor for each angle in its rotation Deposit Mechanism The goal of this module was to store and deposit the tennis and squash balls into the silos. It should fit onto the top of the scissor lift, and be as light as possible.\nCAD model of the deposit mechanism Course Navigation Navigating the Track: Exploring Options\nOur group faced the challenge of ensuring the robot could reliably navigate the track. We considered two primary options:\nHardcode the Movements:\nGuessing the correct motor movements for a successful run. Adjusting values through trial and error. Use Sensors:\nEmploying sensors such as ultrasonic, infrared, and lidar. Exploring Pixy Camera Capabilities\nI had recently become aware of a product called the ‘Pixy Camera’ and was interested to try out its capabilities as a means of track navigation. To be a viable solution, the pixy camera had to be able to detect the following reliably:\nTennis balls Squash balls Storage silos To test the pixy camera, I prototyped a small robot that follows a tennis ball based on its colour hue. Below is a short video of the first trials. Click to view code on GitHub\nThe camera could successfully detect a tennis ball, but after attempting the same test on a squash ball at university, I realised the camera only detects objects that have a colour hue. This was a major problem since the squash balls are black, and the silos are white. Unfortunately this ruled out the use of the pixy camera in our robot.\nOutcome On the test day, our robot had some current drawage issues with the wheel-driving motors. This led to our robot not being able to overcome its own inertia. The challenge allowed for one “correction tap” of the robot during the test. Our group used this to help it overcome its inertia. Points were given for successfully holding tennis/squash balls, so our group changed its goal to sucessfully pick up three tennis balls by lining them up in a row.\n",
+  "wordCount" : "585",
   "inLanguage": "en",
   "image":"http://ryankembrey.github.io/projects/warman/cad_robot.png","datePublished": "2023-11-23T00:00:00Z",
   "dateModified": "2023-11-23T00:00:00Z",
@@ -196,7 +196,7 @@
     <h1 class="post-title">
       Warman Design Challenge
     </h1>
-    <div class="post-meta"><span title='2023-11-23 00:00:00 +0000 UTC'>November 23, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Ryan Kembrey
+    <div class="post-meta"><span title='2023-11-23 00:00:00 +0000 UTC'>November 23, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Ryan Kembrey
 
 </div>
   </header> <div class="toc">
@@ -228,7 +228,255 @@
     </details>
 </div>
 
-  <div class="post-content"><h2 id="task">Task<a hidden class="anchor" aria-hidden="true" href="#task">#</a></h2>
+  <div class="post-content"><script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+
+<style>
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  </style><div class="embed-pdf-container" id="embed-pdf-container-50282067">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-50282067">
+        <div class="pdf-loading" id="pdf-loading-50282067"></div>
+    </div>
+    <div id="overlayText">
+      <a href="ryan_kembrey_warman_portfolio.pdf" aria-label="Download" download>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+        </svg>
+      </a>
+    </div>
+    <canvas class="pdf-canvas" id="pdf-canvas-50282067"></canvas>
+</div>
+
+<div class="pdf-paginator" id="pdf-paginator-50282067">
+    <button id="pdf-prev-50282067">Previous</button>
+    <button id="pdf-next-50282067">Next</button> &nbsp; &nbsp;
+    <span>
+      <span class="pdf-pagenum" id="pdf-pagenum-50282067"></span> / <span class="pdf-pagecount" id="pdf-pagecount-50282067"></span>
+    </span>
+    <a class="pdf-source" id="pdf-source-50282067" href="ryan_kembrey_warman_portfolio.pdf">[pdf]</a>
+</div>
+
+<noscript>
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-50282067" href="ryan_kembrey_warman_portfolio.pdf">here</a>.
+</noscript>
+
+<script type="text/javascript">
+    (function(){
+    var url = 'ryan_kembrey_warman_portfolio.pdf';
+
+    var hidePaginator = "" === "true";
+    var hideLoader = "" === "true";
+    var selectedPageNum = parseInt("") || 1;
+
+    
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/ryankembrey.github.io" + 'js/pdf-js/build/pdf.worker.js';
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById('pdf-canvas-50282067'),
+        ctx = canvas.getContext('2d'),
+        paginator = document.getElementById("pdf-paginator-50282067"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-50282067');
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById('pdf-pagenum-50282067').textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = 'none';
+      canvas.style.display = 'block';
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = 'flex';
+      canvas.style.display = 'none';
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = 'block';
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-prev-50282067').addEventListener('click', onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-next-50282067').addEventListener('click', onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById('pdf-pagecount-50282067').textContent = numPages;
+
+      
+      if(pageNum > numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+</script>
+
+<h2 id="task">Task<a hidden class="anchor" aria-hidden="true" href="#task">#</a></h2>
 <p>The goal of this Warman challenge is to create a small-scale prototype of a transport system that can collect and deliver six spherical vessels to their respective silos. This must be done within a 120-second time limit, otherwise, the robot must stop wherever it is currently at in the process. The <a href="https://warmandesignandbuild.org.au/wp-content/uploads/2023/02/2023-Weir-Warman-Competition-Rules_v01_LR.pdf">official rules document</a>.</p>
 <figure>
   <img src="/projects/warman/track.png" alt="Warman Track">
@@ -236,10 +484,36 @@
 </figure>
 <h2 id="modules">Modules<a hidden class="anchor" aria-hidden="true" href="#modules">#</a></h2>
 <h3 id="scissor-lift">Scissor Lift<a hidden class="anchor" aria-hidden="true" href="#scissor-lift">#</a></h3>
-<p>The design of the scissor lift was one of the main contribitions I made to the robot. The purpose of the scissor lift was to raise the tennis balls to the correct height for depositation.</p>
+<p>The design of the scissor lift was one of the main contributions I made to the robot. The purpose of the scissor lift was to raise the tennis balls to the correct height for
+depositing.</p>
+<figure>
+  <img src="/projects/warman/short_lift_second.png" alt="Scissor Lift">
+  <figcaption>Scissor lift CAD model</figcaption>
+</figure>
 <h3 id="scooping-arm">Scooping Arm<a hidden class="anchor" aria-hidden="true" href="#scooping-arm">#</a></h3>
+<p>I engineered the scooping arm to gather objects from the base of the track, lifting and depositing them onto the scissor lift. This system leverages the elevation of the objects above the platform, to facilitate the scooping action. The top of the bucket as a slight angle on it, which allows the balls to roll off onto the scissor lift when the arm is lifted vertically.</p>
+<div style="text-align:center;">
+  <figure style="display:inline-block;">
+    <img src="/projects/warman/scooping_arm.png" alt="Scooping Arm">
+    <figcaption>Scooping arm CAD model</figcaption>
+  </figure>
+</div>
+<p>The design of this system came with the challenge of ensuring the motor had enough torque to lift the tennis balls up. The torque required to lift the tennis ball up was
+calculated to ensure the right motor was used. Since the maximum torque required was 26Nm, our group used a stepper motor with an advertised torque of 56Nm.</p>
+<div style="text-align:center;">
+  <figure style="display:inline-block;">
+    <img src="/projects/warman/arm_torque.png" alt="Torque Required For Arm Motor">
+    <figcaption>A graph of the torque required from the stepper motor for each angle in its rotation </figcaption>
+  </figure>
+</div>
 <h3 id="deposit-mechanism">Deposit Mechanism<a hidden class="anchor" aria-hidden="true" href="#deposit-mechanism">#</a></h3>
 <p>The goal of this module was to store and deposit the tennis and squash balls into the silos. It should fit onto the top of the scissor lift, and be as light as possible.</p>
+<div style="text-align:center;">
+  <figure style="display:inline-block;">
+    <img src="/projects/warman/deposit.png" alt="Deposit Mechanism">
+    <figcaption>CAD model of the deposit mechanism</figcaption>
+  </figure>
+</div>
 <h2 id="course-navigation">Course Navigation<a hidden class="anchor" aria-hidden="true" href="#course-navigation">#</a></h2>
 <p><strong>Navigating the Track: Exploring Options</strong></p>
 <p>Our group faced the challenge of ensuring the robot could reliably navigate the track. We considered two primary options:</p>
@@ -265,7 +539,7 @@
 <li>Squash balls</li>
 <li>Storage silos</li>
 </ul>
-<p>To test the pixy camera, I prototyped a small robot that follows a tennis ball based on its colour hue. Below is a short video demonstration. <a href="https://github.com/ryankembrey/university/blob/main/mechanical-design-studio/pixy_cam_artifact.ino">Click to view code on GitHub</a></p>
+<p>To test the pixy camera, I prototyped a small robot that follows a tennis ball based on its colour hue. Below is a short video of the first trials. <a href="https://github.com/ryankembrey/university/blob/main/mechanical-design-studio/pixy_cam_artifact.ino">Click to view code on GitHub</a></p>
 <p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/UH_4XYjyAgk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
