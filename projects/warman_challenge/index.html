@@ -20,6 +20,7 @@
 <link rel="mask-icon" href="http://ryankembrey.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://ryankembrey.github.io/projects/warman_challenge/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,7 +57,10 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Warman Design Challenge" />
+</noscript>
+  
+
+<meta property="og:title" content="Warman Design Challenge" />
 <meta property="og:description" content="Designing a robot to complete a challenge" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://ryankembrey.github.io/projects/warman_challenge/" />
@@ -74,16 +78,16 @@
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [, 
+  "itemListElement": [
     {
       "@type": "ListItem",
-      "position":  2 ,
+      "position":  1 ,
       "name": "Projects",
       "item": "http://ryankembrey.github.io/projects/"
     }, 
     {
       "@type": "ListItem",
-      "position":  3 ,
+      "position":  2 ,
       "name": "Warman Design Challenge",
       "item": "http://ryankembrey.github.io/projects/warman_challenge/"
     }
@@ -140,7 +144,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://ryankembrey.github.io" accesskey="h" title="Ryan Kembrey (Alt + H)">Ryan Kembrey</a>
+            <a href="http://ryankembrey.github.io/" accesskey="h" title="Ryan Kembrey (Alt + H)">Ryan Kembrey</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -162,6 +166,8 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -180,11 +186,6 @@
                     <span>Projects</span>
                 </a>
             </li>
-            <li>
-                <a href="http://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf" title="Resume">
-                    <span>Resume</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -192,7 +193,7 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://ryankembrey.github.io">Home</a>&nbsp;»&nbsp;<a href="http://ryankembrey.github.io/projects/">Projects</a></div>
+    <div class="breadcrumbs"><a href="http://ryankembrey.github.io/">Home</a>&nbsp;»&nbsp;<a href="http://ryankembrey.github.io/projects/">Projects</a></div>
     <h1 class="post-title">
       Warman Design Challenge
     </h1>
@@ -352,7 +353,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-50282067" href="
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
-      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/ryankembrey.github.io" + 'js/pdf-js/build/pdf.worker.js';
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/ryankembrey.github.io\/" + 'js/pdf-js/build/pdf.worker.js';
 
     
     var pdfDoc = null,
@@ -541,9 +542,12 @@ calculated to ensure the right motor was used. Since the maximum torque required
 </ul>
 <p>To test the pixy camera, I prototyped a small robot that follows a tennis ball based on its colour hue. Below is a short video of the first trials. <a href="https://github.com/ryankembrey/university/blob/main/mechanical-design-studio/pixy_cam_artifact.ino">Click to view code on GitHub</a></p>
 <p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/UH_4XYjyAgk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/UH_4XYjyAgk?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <br></p>
 <p>The camera could successfully detect a tennis ball, but after attempting the same test on a squash ball at university, I realised the camera only detects objects that have a colour hue. This was a major problem since the squash balls are black, and the silos are white. Unfortunately this ruled out the use of the pixy camera in our robot.</p>
@@ -567,7 +571,7 @@ led to our robot not being able to overcome its own inertia. The challenge allow
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://ryankembrey.github.io">Ryan Kembrey</a></span>
+    <span>&copy; 2025 <a href="http://ryankembrey.github.io/">Ryan Kembrey</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
