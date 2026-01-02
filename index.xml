@@ -4,35 +4,30 @@
     <title>Ryan Kembrey</title>
     <link>http://ryankembrey.github.io/</link>
     <description>Recent content on Ryan Kembrey</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://ryankembrey.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ryankembrey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Of A Solar BBQ</title>
       <link>http://ryankembrey.github.io/projects/solar_bbq/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>http://ryankembrey.github.io/projects/solar_bbq/</guid>
       <description>Designing a solar BBQ to cook sausages</description>
     </item>
-    
     <item>
       <title>Warman Design Challenge</title>
       <link>http://ryankembrey.github.io/projects/warman_challenge/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>http://ryankembrey.github.io/projects/warman_challenge/</guid>
       <description>Designing a robot to complete a challenge</description>
     </item>
-    
     <item>
       <title>LaTeX Project Automation</title>
       <link>http://ryankembrey.github.io/blog/latex_automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://ryankembrey.github.io/blog/latex_automation/</guid>
       <description>How I create my LaTeX projects with minimal effort</description>
     </item>
-    
   </channel>
 </rss>

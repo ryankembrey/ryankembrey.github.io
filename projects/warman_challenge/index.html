@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,7 @@
 <meta name="description" content="Designing a robot to complete a challenge">
 <meta name="author" content="Ryan Kembrey">
 <link rel="canonical" href="http://ryankembrey.github.io/projects/warman_challenge/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
-    onload="hljs.initHighlightingOnLoad();"></script>
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://ryankembrey.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://ryankembrey.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://ryankembrey.github.io/favicon-32x32.png">
@@ -38,37 +36,59 @@
                 --secondary: rgb(155, 156, 157);
                 --tertiary: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
+                --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
+            .toc {
+                background: var(--entry);
             }
+        }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
             }
         }
 
     </style>
-</noscript><meta property="og:title" content="Warman Design Challenge" />
-<meta property="og:description" content="Designing a robot to complete a challenge" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://ryankembrey.github.io/projects/warman_challenge/" />
-<meta property="og:image" content="http://ryankembrey.github.io/projects/warman/cad_robot.png" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2023-11-23T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-11-23T00:00:00+00:00" />
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://ryankembrey.github.io/projects/warman/cad_robot.png" />
-<meta name="twitter:title" content="Warman Design Challenge"/>
-<meta name="twitter:description" content="Designing a robot to complete a challenge"/>
+</script><meta property="og:url" content="http://ryankembrey.github.io/projects/warman_challenge/">
+  <meta property="og:site_name" content="Ryan Kembrey">
+  <meta property="og:title" content="Warman Design Challenge">
+  <meta property="og:description" content="Designing a robot to complete a challenge">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2023-11-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-11-23T00:00:00+00:00">
+    <meta property="article:tag" content="Warman">
+    <meta property="article:tag" content="Project">
+    <meta property="article:tag" content="Robot">
+    <meta property="article:tag" content="Challenge">
+    <meta property="article:tag" content="CAD">
+    <meta property="og:image" content="http://ryankembrey.github.io/projects/warman/cad_robot.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://ryankembrey.github.io/projects/warman/cad_robot.png">
+<meta name="twitter:title" content="Warman Design Challenge">
+<meta name="twitter:description" content="Designing a robot to complete a challenge">
 
 
 <script type="application/ld+json">
@@ -125,25 +145,13 @@
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+<body id="top">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://ryankembrey.github.io/" accesskey="h" title="Ryan Kembrey (Alt + H)">Ryan Kembrey</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -163,8 +171,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -196,10 +202,10 @@
 <article class="post-single">
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://ryankembrey.github.io/">Home</a>&nbsp;»&nbsp;<a href="http://ryankembrey.github.io/projects/">Projects</a></div>
-    <h1 class="post-title">
+    <h1 class="post-title entry-hint-parent">
       Warman Design Challenge
     </h1>
-    <div class="post-meta"><span title='2023-11-23 00:00:00 +0000 UTC'>November 23, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Ryan Kembrey
+    <div class="post-meta"><span title='2023-11-23 00:00:00 +0000 UTC'>November 23, 2023</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Ryan Kembrey</span>
 
 </div>
   </header> <div class="toc">
@@ -569,7 +575,8 @@ led to our robot not being able to overcome its own inertia. The challenge allow
     </main>
     
 <footer class="footer">
-    <span>&copy; 2026 <a href="http://ryankembrey.github.io/">Ryan Kembrey</a></span>
+        <span>&copy; 2026 <a href="http://ryankembrey.github.io/">Ryan Kembrey</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
@@ -583,9 +590,14 @@ led to our robot not being able to overcome its own inertia. The challenge allow
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -626,11 +638,12 @@ led to our robot not being able to overcome its own inertia. The challenge allow
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
