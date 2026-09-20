@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DFM on Ryan Kembrey</title>
+    <link>http://ryankembrey.github.io/tags/dfm/</link>
+    <description>Recent content in DFM on Ryan Kembrey</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ryankembrey.github.io/tags/dfm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design for Manufacturing (DFM) is Coming to FreeCAD</title>
+      <link>http://ryankembrey.github.io/freecad/dfm_announcement/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://ryankembrey.github.io/freecad/dfm_announcement/</guid>
+      <description>Announcing a DFM workbench for FreeCAD</description>
+    </item>
+  </channel>
+</rss>
