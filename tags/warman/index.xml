@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Warman on Ryan Kembrey</title>
-    <link>http://ryankembrey.github.io/tags/warman/</link>
+    <link>https://ryankembrey.github.io/tags/warman/</link>
     <description>Recent content in Warman on Ryan Kembrey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://ryankembrey.github.io/tags/warman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryankembrey.github.io/tags/warman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Warman Design Challenge</title>
-      <link>http://ryankembrey.github.io/projects/warman_challenge/</link>
+      <link>https://ryankembrey.github.io/projects/warman_challenge/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/projects/warman_challenge/</guid>
+      <guid>https://ryankembrey.github.io/projects/warman_challenge/</guid>
       <description>Designing a robot to complete a challenge</description>
     </item>
   </channel>

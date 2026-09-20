@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ryan Kembrey</title>
-    <link>http://ryankembrey.github.io/</link>
+    <link>https://ryankembrey.github.io/</link>
     <description>Recent content on Ryan Kembrey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://ryankembrey.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryankembrey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design for Manufacturing (DFM) is Coming to FreeCAD</title>
-      <link>http://ryankembrey.github.io/freecad/dfm_announcement/</link>
+      <link>https://ryankembrey.github.io/freecad/dfm_announcement/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/freecad/dfm_announcement/</guid>
+      <guid>https://ryankembrey.github.io/freecad/dfm_announcement/</guid>
       <description>Announcing a DFM workbench for FreeCAD</description>
     </item>
     <item>
       <title>Design Of A Solar BBQ</title>
-      <link>http://ryankembrey.github.io/projects/solar_bbq/</link>
+      <link>https://ryankembrey.github.io/projects/solar_bbq/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/projects/solar_bbq/</guid>
+      <guid>https://ryankembrey.github.io/projects/solar_bbq/</guid>
       <description>Designing a solar BBQ to cook sausages</description>
     </item>
     <item>
       <title>Warman Design Challenge</title>
-      <link>http://ryankembrey.github.io/projects/warman_challenge/</link>
+      <link>https://ryankembrey.github.io/projects/warman_challenge/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/projects/warman_challenge/</guid>
+      <guid>https://ryankembrey.github.io/projects/warman_challenge/</guid>
       <description>Designing a robot to complete a challenge</description>
     </item>
     <item>
       <title>Cover Letter</title>
-      <link>http://ryankembrey.github.io/cover-letter/</link>
+      <link>https://ryankembrey.github.io/cover-letter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/cover-letter/</guid>
+      <guid>https://ryankembrey.github.io/cover-letter/</guid>
       <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
 
 &lt;style&gt;
@@ -123,7 +123,7 @@
         &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-7c758b69&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div id=&#34;overlayText&#34;&gt;
-      &lt;a href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+      &lt;a href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34; aria-label=&#34;Download&#34; download&gt;
         &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
             &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
         &lt;/svg&gt;
@@ -138,11 +138,11 @@
     &lt;span&gt;
       &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-7c758b69&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-7c758b69&#34;&gt;&lt;/span&gt;
     &lt;/span&gt;
-    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-7c758b69&#34; href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34;&gt;[pdf]&lt;/a&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-7c758b69&#34; href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34;&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7c758b69&#34; href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34;&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7c758b69&#34; href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_cover_letter.pdf&#34;&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type=&#34;text/javascript&#34;&gt;
@@ -158,7 +158,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/ryankembrey.github.io\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/ryankembrey.github.io\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
 
     
     var pdfDoc = null,
@@ -284,9 +284,9 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-7
     </item>
     <item>
       <title>Internship Reflection</title>
-      <link>http://ryankembrey.github.io/internship-reflection/</link>
+      <link>https://ryankembrey.github.io/internship-reflection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/internship-reflection/</guid>
+      <guid>https://ryankembrey.github.io/internship-reflection/</guid>
       <description>&lt;h2 id=&#34;what-were-your-expectations-about-your-internship-before-you-joined&#34;&gt;What were your expectations about your internship before you joined?&lt;/h2&gt;
 &lt;p&gt;The internship was not initially meant to be one. I applied for a role as a production engineer at
 Xero Linear Lighting Systems, and during the interview, told them I was looking to complete an
@@ -310,16 +310,16 @@ industry.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LaTeX Project Automation</title>
-      <link>http://ryankembrey.github.io/blog/latex_automation/</link>
+      <link>https://ryankembrey.github.io/blog/latex_automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/blog/latex_automation/</guid>
+      <guid>https://ryankembrey.github.io/blog/latex_automation/</guid>
       <description>How I create my LaTeX projects with minimal effort</description>
     </item>
     <item>
       <title>Resume</title>
-      <link>http://ryankembrey.github.io/resume/</link>
+      <link>https://ryankembrey.github.io/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://ryankembrey.github.io/resume/</guid>
+      <guid>https://ryankembrey.github.io/resume/</guid>
       <description>&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
 
 &lt;style&gt;
@@ -409,7 +409,7 @@ industry.&lt;/p&gt;</description>
         &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-8bbc6c5b&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div id=&#34;overlayText&#34;&gt;
-      &lt;a href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+      &lt;a href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34; aria-label=&#34;Download&#34; download&gt;
         &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
             &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
         &lt;/svg&gt;
@@ -424,11 +424,11 @@ industry.&lt;/p&gt;</description>
     &lt;span&gt;
       &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-8bbc6c5b&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-8bbc6c5b&#34;&gt;&lt;/span&gt;
     &lt;/span&gt;
-    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-8bbc6c5b&#34; href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34;&gt;[pdf]&lt;/a&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-8bbc6c5b&#34; href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34;&gt;[pdf]&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;noscript&gt;
-View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-8bbc6c5b&#34; href=&#34;http://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34;&gt;here&lt;/a&gt;.
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-8bbc6c5b&#34; href=&#34;https://ryankembrey.github.io/pdf/ryan_kembrey_resume.pdf&#34;&gt;here&lt;/a&gt;.
 &lt;/noscript&gt;
 
 &lt;script type=&#34;text/javascript&#34;&gt;
@@ -444,7 +444,7 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-8
 
     
     if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
-      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/ryankembrey.github.io\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/ryankembrey.github.io\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
 
     
     var pdfDoc = null,
